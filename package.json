@@ -1,0 +1,28 @@
+{
+  "name": "react-cli",
+  "version": "0.0.1",
+  "description": "a tools to generator react workspace",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "bin/express",
+  "preferGlobal": true,
+  "bin": {
+    "express": "./bin/express"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
